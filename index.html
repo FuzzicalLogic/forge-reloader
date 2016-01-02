@@ -1,0 +1,13 @@
+<!-- Component Dependencies -->
+	<link rel="import" href="../polymer/polymer.html">
+	<link rel="import" href="../liquid-hotkey-event/index.html">
+
+<!-- Component Definition and Template -->
+	<dom-module id="forge-reloader">
+		<link rel="import" type="css" href="style.css">
+		<template>
+			<button>R</button>
+			<liquid-hotkey-event on="document" keys="ctrl+f5" emits="reload-window"></liquid-hotkey-event>
+		</template>
+	</dom-module>
+	<script src="register.js"></script>
