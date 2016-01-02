@@ -11,6 +11,9 @@
 		properties: {
 		},
 
+		listeners: {
+			'reload-window': onReloadWindow
+		}
 	});
 
 	function onElementCreated() {
@@ -27,6 +30,10 @@
 
 	function onElementDetached() {
 
+	}
+
+	function onReloadWindow(event) {
+		console.log('Reload Requested');
 	}
 
 }) ();
