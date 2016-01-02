@@ -18,7 +18,9 @@
 	},
 	"license": "http://polymer.github.io/LICENSE.txt",
 	"homepage": "https://github.com/FuzzicalLogic/forge-reloader",
-	"ignore": [],
+	"ignore": [
+		"**/.*"
+	],
 	"dependencies": {
 		"polymer": "Polymer/polymer#^1.0.0",
 		"liquid-hotkey-event": "FuzzicalLogic/liquid-hotkey-event#~0.1.0"
